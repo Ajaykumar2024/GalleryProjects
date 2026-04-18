@@ -1,8 +1,8 @@
  import React, { useEffect } from 'react'
  import axios from "axios";
 import { useState } from 'react';
-import GallerySection from '../../gallery_project/src/component/GallerySection/GallerySection';
-import BtnSection from '../../gallery_project/src/component/buttonSection/BtnSection';
+import GallerySection from './gallery_project/src/component/GallerySection/GallerySection';
+import BtnSection from './gallery_project/src/component/buttonSection/BtnSection';
  
  
  const App = () => {
