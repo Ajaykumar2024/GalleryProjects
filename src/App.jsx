@@ -23,7 +23,7 @@ import BtnSection from './component/buttonSection/BtnSection'
    return (
     <div className=' px-8 py-5'>
       {userData.length === 0 ? (
-          <div className=' h-[100] flex justify-center items-center text-gray-500 text-xl'>Loading...</div>
+          <div className=' h-[100vh] flex justify-center items-center text-gray-500 text-xl'>Loading...</div>
         ) : (
           <>
        <GallerySection userData={userData} />
